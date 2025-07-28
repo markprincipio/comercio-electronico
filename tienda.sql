@@ -5,7 +5,7 @@ CREATE TABLE PRODUCTO (
     id_producto INT AUTO_INCREMENT PRIMARY KEY,
     nombre VARCHAR(100),
     descripcion TEXT,
-    precio DECIMAL(1{0,2),
+    precio DECIMAL(10,2),
     stock INT
 );
 
